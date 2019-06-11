@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText
+        android:id="@+id/etFirstNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入第一个操作数"/>
+    <EditText
+        android:id="@+id/etSecondNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入第二个操作数"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"/>
+        <Button
+            android:id="@+id/btnMinus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"/>
+        <Button
+            android:id="@+id/btnMutiply"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="*"/>
+        <Button
+            android:id="@+id/btnDevide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="/"/>
+
+    </LinearLayout>
+</LinearLayout>
